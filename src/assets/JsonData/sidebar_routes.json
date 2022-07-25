@@ -15,18 +15,28 @@
         "icon": "bx bx-package"
     },
     {
+        "display_name": "Add Product",
+        "route": "/add_product",
+        "icon": "bx bxs-folder-plus"
+    },
+    {
+        "display_name": "Add Image",
+        "route": "/add_image",
+        "icon": "bx bxs-image-add"
+    },
+    {
+        "display_name": "Add Size",
+        "route": "/add_size",
+        "icon": "bx bx-font-size"
+    },
+    {
         "display_name": "Orders",
         "route": "/orders",
         "icon": "bx bx-cart"
     },
     {
-        "display_name": "Analytics",
-        "route": "/analytics",
-        "icon": "bx bx-bar-chart-alt"
-    },
-    {
-        "display_name": "categories",
-        "route": "/categories",
+        "display_name": "brand",
+        "route": "/add_brand",
         "icon": "bx bx-list-ol"
     },
     {

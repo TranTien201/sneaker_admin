@@ -7,7 +7,6 @@ const SidebarItem = props => {
     return (
         <div className="sidebar__item">
             <div className={`sidebar__item-inner ${active}`}>
-                <i className={props.icon}></i>
                 <span>
                     {props.title}
                 </span>

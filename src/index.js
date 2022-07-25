@@ -14,12 +14,15 @@ import './assets/css/theme.css'
 import './assets/css/index.css'
 
 import Layout from './components/layout/Layout'
+import { Axios } from 'axios';
+
+// Axios.defaults.baseURL ='http://localhost:8080'
 
 const store = createStore(
   rootReducer
 )
 
-document.title = 'Tua CRM'
+document.title = 'Sneaker Shop'
 
 ReactDOM.render(
   <Provider store={store}>
